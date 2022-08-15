@@ -28,7 +28,6 @@ function Profile(props) {
     }); // Reset the task details
   }
 
-
     if (user)
       return (
         <>
