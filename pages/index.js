@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { supabase } from '../api'
+import 'tailwindcss/tailwind.css';
 
 export default function Home() {
   const [posts, setPosts] = useState([])

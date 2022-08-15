@@ -1,10 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+
 module.exports = {
-  content: [],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+  ],
+  media: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
